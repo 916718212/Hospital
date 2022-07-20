@@ -1,0 +1,125 @@
+.main {
+				width: 100%;
+				height: 100%;
+			}
+
+			.ct {
+				position: relative;
+				left: 55%;
+				top: 50%;
+				width: 100%;
+				height: 100%;
+				transform: translate(-50%, -50%);
+				transform-style: preserve-3d;
+				perspective-origin: center 30vh;
+				perspective: 1000px;
+			}
+
+			.ct .item {
+				font-size: 0;
+				position: absolute;
+				transform-origin: center;
+				width: 400px;
+				transform: translateZ(-10000px);
+				background-color: rgba(176, 44, 47, 0.2);
+				border: 8px solid #fff;
+				opacity: 0;
+				/* opacity: 1; */
+				transition: opacity .5s linear;
+				cursor: pointer;
+			}
+
+			.ct .item img {
+				font-size: 0;
+				width: 100%;
+				height: auto;
+			}
+
+			.text1 {
+				position: absolute;
+				z-index: 99;
+				top: 240px;
+				left: -1920px;
+			}
+
+			.text2 {
+				position: absolute;
+				z-index: 99;
+				top: 450px;
+				left: -1920px;
+			}
+
+			.text3 {
+				position: absolute;
+				z-index: 99;
+				top: 660px;
+				left: -1920px;
+			}
+
+			.slide1 {
+				animation: .8s slide forwards;
+			}
+
+			.slide2 {
+				animation: 1s slide 1.2s forwards;
+			}
+
+			.slide3 {
+				animation: 1.2s slide 2.4s forwards;
+			}
+
+			@keyframes slide {
+				from {
+					left: -1920px;
+				}
+
+				to {
+					left: 86.5px
+				}
+			}
+
+			.pic-wrapper {
+				/* display: none; */
+				opacity: 0;
+				z-index: -1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 1650px;
+				height: 928px;
+				background-color: #fff;
+				border: 8px solid rgba(255,255,255,.2);
+				box-shadow: 0 0 3px 3px rgba(255,255,255,.5);
+				transition: opacity .1s linear;
+			}
+			.pic-wrapper .close {
+				position: absolute;
+				width: 45px; height: 45px; background: #fff url(../images/close-ico.png) no-repeat center; right: -25px; top: -25px; z-index: 10; border-radius: 20px; box-shadow: 0 0 5px 5px rgba(255,255,255,.5); cursor: pointer;
+			}
+
+			.swiper-container {
+				width: 100%;
+				height: 100%;
+			}
+
+			.swiper-button-prev {
+				left: -100px;
+			}
+
+			.swiper-button-next {
+				right: -100px;
+			}
+
+			.swiper-slide,
+			.swiper-slide img {
+				margin: 0 auto;
+				height: 100%;
+				overflow: hidden;
+				text-align: center;
+			}
+
+			.swiper-slide {
+				display: flex;
+				justify-content: center;
+			}

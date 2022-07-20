@@ -1,0 +1,19 @@
+*{margin:0;padding:0;list-style:none;border:0px;outline:none;}
+html{height:100%;}
+body{font-family:"微软雅黑","宋体",Arial, Helvetica, sans-serif,"黑体";font-size:14px;background:#fff;margin:0 auto;}
+a{color:#606060;text-decoration:none;}
+a:hover{text-decoration:none;}
+img{border:none 0;}
+
+.expertbox{width:840px;margin:40px auto 0 auto;}
+.it_expert{height:50px;border-left:3px solid #2b7ac6;border-bottom:1px solid #dfdfdf;position:relative;border-top:1px solid #dfdfdf;border-right:1px solid #dfdfdf;color:#686868;line-height:50px;}
+.it_expertp1{width:120px;height:50px;font-size:18px;text-indent:2em;color:#686868;line-height:50px;float:left;}
+.it_expertp2{width:200px;height:50px;float:right;text-align:center;}
+#it_awewe a{display:inline-table!important;}
+.it_expertspan1{width:30px;height:30px;border:1px solid #b4b4b4;margin-right:10px;color:#868585;display:inline-table;text-align:center;line-height:30px;}
+.it_expertspan2{width:30px;height:30px;border:1px solid #b4b4b4;color:#868585;display:inline-block;text-align:center;line-height:30px;}
+.it_expert3{border-left:1px solid #dfdfdf;border-right:1px solid #dfdfdf;}
+.it_expertxt{height:126px;border-bottom:1px solid #e4e4e4;position:relative;}
+.it_expertit{color:#434343;font-size:16px;padding-left:30px;padding-top:30px;padding-bottom:6px;position:relative;}
+.it_experconter{width:700px;padding:6px;padding-left:30px;color:#7d858c;position:relative;}
+.it_expertxt:hover{background:#2b7bc6;} 

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <filter>
+ 	<filter-name>EncodingFilter</filter-name>
+ 	<filter-class>filter.EncodingFilter</filter-class>
+ </filter>
+ <filter-mapping>
+ 	<filter-name>EncodingFilter</filter-name>
+ 	<url-pattern>/*</url-pattern>
+ </filter-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Regist</servlet-name>
+    <servlet-class>servlet.Regist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Exit</servlet-name>
+    <servlet-class>dao.Exit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageBoard</servlet-name>
+    <servlet-class>servlet.MessageBoard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Password</servlet-name>
+    <servlet-class>servlet.Password</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Password_2</servlet-name>
+    <servlet-class>servlet.Password_2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerLogin</servlet-name>
+    <servlet-class>servlet.ManagerLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Manager_Login</servlet-name>
+    <servlet-class>servlet.Manager_Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Manager_Exit</servlet-name>
+    <servlet-class>servlet.Manager_Exit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddEmergencyRescue</servlet-name>
+    <servlet-class>servlet.AddEmergencyRescue</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteEmergecyRescue</servlet-name>
+    <servlet-class>servlet.DeleteEmergecyRescue</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteEmergencyRescue</servlet-name>
+    <servlet-class>servlet.DeleteEmergencyRescue</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateEmergencyRescue</servlet-name>
+    <servlet-class>servlet.UpdateEmergencyRescue</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddChinaVirus</servlet-name>
+    <servlet-class>servlet.AddChinaVirus</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateChinaVirus</servlet-name>
+    <servlet-class>servlet.UpdateChinaVirus</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteChinaVirus</servlet-name>
+    <servlet-class>servlet.DeleteChinaVirus</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCustomer</servlet-name>
+    <servlet-class>servlet.AddCustomer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteCustomer</servlet-name>
+    <servlet-class>servlet.DeleteCustomer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateCustomer</servlet-name>
+    <servlet-class>servlet.UpdateCustomer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMessageBoard</servlet-name>
+    <servlet-class>servlet.DeleteMessageBoard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddWork</servlet-name>
+    <servlet-class>servlet.AddWork</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateWork</servlet-name>
+    <servlet-class>servlet.UpdateWork</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteWork</servlet-name>
+    <servlet-class>servlet.DeleteWork</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMedicalEquipment</servlet-name>
+    <servlet-class>servlet.AddMedicalEquipment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateMedicalEquipment</servlet-name>
+    <servlet-class>servlet.UpdateMedicalEquipment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMedicalEquipment</servlet-name>
+    <servlet-class>servlet.DeleteMedicalEquipment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMedicalDrugs</servlet-name>
+    <servlet-class>servlet.AddMedicalDrugs</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddExpertCommunity</servlet-name>
+    <servlet-class>servlet.AddExpertCommunity</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateMedicalDrugs</servlet-name>
+    <servlet-class>servlet.UpdateMedicalDrugs</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateExpertCommunity</servlet-name>
+    <servlet-class>servlet.UpdateExpertCommunity</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMedicalDrugs</servlet-name>
+    <servlet-class>servlet.DeleteMedicalDrugs</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteExpertCommunity</servlet-name>
+    <servlet-class>servlet.DeleteExpertCommunity</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Regist</servlet-name>
+    <url-pattern>/servlet/Regist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exit</servlet-name>
+    <url-pattern>/servlet/Exit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageBoard</servlet-name>
+    <url-pattern>/servlet/MessageBoard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Password</servlet-name>
+    <url-pattern>/servlet/Password</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Password_2</servlet-name>
+    <url-pattern>/servlet/Password_2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerLogin</servlet-name>
+    <url-pattern>/servlet/ManagerLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Manager_Login</servlet-name>
+    <url-pattern>/servlet/Manager_Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Manager_Exit</servlet-name>
+    <url-pattern>/servlet/Manager_Exit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddEmergencyRescue</servlet-name>
+    <url-pattern>/servlet/AddEmergencyRescue</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteEmergecyRescue</servlet-name>
+    <url-pattern>/servlet/DeleteEmergecyRescue</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteEmergencyRescue</servlet-name>
+    <url-pattern>/servlet/DeleteEmergencyRescue</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateEmergencyRescue</servlet-name>
+    <url-pattern>/servlet/UpdateEmergencyRescue</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddChinaVirus</servlet-name>
+    <url-pattern>/servlet/AddChinaVirus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateChinaVirus</servlet-name>
+    <url-pattern>/servlet/UpdateChinaVirus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteChinaVirus</servlet-name>
+    <url-pattern>/servlet/DeleteChinaVirus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCustomer</servlet-name>
+    <url-pattern>/servlet/AddCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCustomer</servlet-name>
+    <url-pattern>/servlet/DeleteCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCustomer</servlet-name>
+    <url-pattern>/servlet/UpdateCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMessageBoard</servlet-name>
+    <url-pattern>/servlet/DeleteMessageBoard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddWork</servlet-name>
+    <url-pattern>/servlet/AddWork</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateWork</servlet-name>
+    <url-pattern>/servlet/UpdateWork</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteWork</servlet-name>
+    <url-pattern>/servlet/DeleteWork</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMedicalEquipment</servlet-name>
+    <url-pattern>/servlet/AddMedicalEquipment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateMedicalEquipment</servlet-name>
+    <url-pattern>/servlet/UpdateMedicalEquipment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMedicalEquipment</servlet-name>
+    <url-pattern>/servlet/DeleteMedicalEquipment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMedicalDrugs</servlet-name>
+    <url-pattern>/servlet/AddMedicalDrugs</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddExpertCommunity</servlet-name>
+    <url-pattern>/servlet/AddExpertCommunity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateMedicalDrugs</servlet-name>
+    <url-pattern>/servlet/UpdateMedicalDrugs</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateExpertCommunity</servlet-name>
+    <url-pattern>/servlet/UpdateExpertCommunity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMedicalDrugs</servlet-name>
+    <url-pattern>/servlet/DeleteMedicalDrugs</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteExpertCommunity</servlet-name>
+    <url-pattern>/servlet/DeleteExpertCommunity</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

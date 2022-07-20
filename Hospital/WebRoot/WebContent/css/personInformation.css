@@ -1,0 +1,12 @@
+@charset "utf-8";
+body{background:url(../images/personInformation-bg.jpg) no-repeat #121747 fixed;background-size:100% 100%;color:#26ccd4;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+/*主要内容*/
+.mainbady{width: 100%;height: 100%;}
+.info{position:relative;padding:80px 0 0 0;background-color:rgba(21,240,250,0.1);}
+.info_top{margin:0 100px;padding:0 0 30px 0;}
+.info_top p{padding:5px 0;font-size: 30px;}
+img{
+	position: relative;
+	margin-top: -5%;
+	margin-left: 40%;
+}
