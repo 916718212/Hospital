@@ -11,7 +11,7 @@
  Target Server Version : 80026
  File Encoding         : 65001
 
- Date: 23/05/2022 21:33:04
+ Date: 02/08/2022 18:20:29
 */
 
 SET NAMES utf8mb4;
@@ -605,8 +605,8 @@ CREATE TABLE `messageboard`  (
 -- ----------------------------
 -- Records of messageboard
 -- ----------------------------
-INSERT INTO `messageboard` VALUES ('这是我的第一次留言', 'wufan', '17709604323', '20220422000', '916718212@qq.com', '2021-01-30 15:59:59');
-INSERT INTO `messageboard` VALUES ('希望能改善平台', 'wufan', '17709604323', '20220422000', '916718212@qq.com', '2022-04-19 19:53:33');
+INSERT INTO `messageboard` VALUES ('这是我的第一次留言', 'wufan', '01234567891', '20220422000', '123456789@qq.com', '2021-01-30 15:59:59');
+INSERT INTO `messageboard` VALUES ('希望能改善平台', 'wufan', '01234567891', '20220422000', '123456789@qq.com', '2022-04-19 19:53:33');
 INSERT INTO `messageboard` VALUES ('', 'wufan', '', '20220422000', '', '2022-04-19 21:09:30');
 
 -- ----------------------------
